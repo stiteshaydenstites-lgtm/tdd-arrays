@@ -217,10 +217,8 @@ export function findSong(playlist, song) {
  */
 export function findSpy(map) {
   // TODO
-  let myArray = map;
   //let rows = map.rows;
   //let cols = map.cols;
-  let stringArray = [];
   let numArray = null;
   
   for(let i = 0; i<map.length; i++){
