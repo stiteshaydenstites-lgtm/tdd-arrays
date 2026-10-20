@@ -228,7 +228,7 @@ export function findSpy(map) {
       if(map[i][j]==="spy"){
         numArray = [i,j];
       }
-      console.log(`current array element: ${map[i][j]} row: ${i} column: ${j}`);
+      console.log(`current array element: ${map[i][j]} column: ${i} row: ${j}`);
     }
     //console.log(map[i])
   }
